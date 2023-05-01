@@ -1,12 +1,13 @@
+import { Link } from "react-router-dom";
+
 export const Home = () => {
     return (
         <div className="home">
             <nav>
                 <ul>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#skills">Skills</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                <Link to="/about">About</Link>
+                <Link to="/projects">Projects</Link>
+                <Link to="/contact">Contact</Link>
                 </ul>
             </nav>
            <h1 className="one">
