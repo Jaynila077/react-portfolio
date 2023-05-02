@@ -1,7 +1,7 @@
 import { useEffect, useRef } from "react";
 import gsap from "gsap";
 
-export const Card = () => {
+export const Card3 = () => {
   const cardRef = useRef(null);
   const buttonRef = useRef(null);
   const headingRef = useRef(null);
@@ -45,7 +45,7 @@ export const Card = () => {
   return (
      <div className="container">
         <div className="card" ref={cardRef}>
-      <h2 ref={headingRef}>Project1</h2>
+      <h2 ref={headingRef}>Project3</h2>
       <i ref={arrowRef}className="fas fa-arrow-right"></i>
       <p ref={textRef}>some text.</p>
       <div className="pic" ref={picRef}></div>
