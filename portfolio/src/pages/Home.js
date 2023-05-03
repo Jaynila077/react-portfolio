@@ -1,8 +1,14 @@
 import { Link } from "react-router-dom";
+import { motion } from "framer-motion";
 
 export const Home = () => {
     return (
-        <div className="home">
+        <motion.div 
+          className="home"
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          exit={{ opacity: 0 }}
+        >
             <nav>
                 <ul>
                 <Link to="/about">About</Link>
@@ -17,6 +23,6 @@ export const Home = () => {
            Web Devlopment &amp; <br />
            Data Science Enthusiast
          </p>
-        </div>
+        </motion.div>
     )
 }

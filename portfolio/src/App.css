@@ -293,3 +293,20 @@ body{
   grid-template-columns: auto auto;
   list-style: none;
 }  
+
+
+
+
+
+/* about */
+
+.about h1{
+  color: #fff;
+}
+
+
+/* contact */
+
+.contact h1{
+  color: #fff;
+}
