@@ -10,7 +10,6 @@ export const About = () => {
         exit={{ opacity: 0 }}
         >
           <Navbar />
-
           <h1>About</h1>
         </motion.div>
     )

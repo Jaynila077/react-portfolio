@@ -45,7 +45,7 @@ export const Card = () => {
   return (
      <div className="container">
         <div className="card" ref={cardRef}>
-      <h2 ref={headingRef}>Project1</h2>
+      <h2 ref={headingRef}>Portfolio</h2>
       <i ref={arrowRef}className="fas fa-arrow-right"></i>
       <p ref={textRef}>some text.</p>
       <div className="pic" ref={picRef}></div>

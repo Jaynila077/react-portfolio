@@ -188,7 +188,7 @@ body{
     .container .card {
       position: relative;
       width: 500px;
-      height: 200px;
+      height: 150px;
       background-color: #010c14;
       overflow: hidden;
       margin: 20px;
@@ -261,39 +261,11 @@ body{
       border-radius: 30px;
       cursor: pointer;
       outline: none;
-      /* transition: all 0.3s ease; */
       mix-blend-mode: hard-light;
     }
     .container .card button {
       background-color: #f81e42;
     }
-
-.projects{
-  min-height: 100vh;
-  position: relative;
-  top: 4vh;
-  left: 0vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: column;
-}   
-  
-.projects h1 {
-  font-size: 4vh;
-  color: #e9e2e2b7;
-  font-family: 'Quicksand', sans-serif;
-}
- .ul {
-  position: relative;
-  top: 14%;
-  display: grid;
-  justify-content: center;
-  align-items: center;
-  grid-template-columns: auto auto;
-  list-style: none;
-}  
-
 
 
 

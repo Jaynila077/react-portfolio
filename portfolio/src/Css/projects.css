@@ -1,0 +1,73 @@
+.projects{
+  height: 100vmax;
+  width : 100%;
+}
+.projects .hero{
+    position: relative;
+    text-align: center;
+    color: #fff;
+    font-family: 'Anton', sans-serif;
+    text-transform: uppercase;
+    margin: 10vh;
+    padding: 5vh;
+  }
+  .hero h1{
+    font-size: 8rem;
+    font-weight: 700;
+    margin-bottom: 0;
+  }
+  .hero h2{
+    font-size: 3rem;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 1rem;
+  }
+  
+  .projectItems{
+     margin-top: 10vh;
+     padding-top: 10vh;
+     color: #fff;
+     font-family: 'oswald', sans-serif;
+     display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center
+  }  
+  .content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .content button{
+    margin-left: 6rem; 
+    margin-right: 1rem;
+    position: absolute;
+    left: 70px;
+    width: 30px;
+    height: 30px;
+    background-color: #f81e42;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    outline: none;
+    mix-blend-mode: hard-light;
+  }
+
+  .content h1{
+    position: relative;
+    margin-right: 11rem;
+    font-size: 3rem;
+    left: -8%;
+  }
+    .content p{
+        position: relative;
+        margin-top: 9rem;
+        font-size: 1.6rem;
+        left: 15%;
+    }
+    .projectItems .container{
+      position: relative;
+      left : 39%;
+    }
