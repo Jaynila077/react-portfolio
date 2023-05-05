@@ -19,7 +19,7 @@ export const Projects = () => {
             <h2>to showcase of <br /> my personal <span id="jay">projects</span> </h2>
           </div>
           <div className="projectItems">
-            <section>
+            <section className='project1'>
                 <div className="content">
                 <button></button>
                 <h1>Portfolio</h1>
@@ -31,6 +31,12 @@ export const Projects = () => {
                 </div>
                 <Card />
             </section>
+            {/* <section className='project2'>
+                <div className="content">
+                <button></button>
+                </div>
+                <Card2 />
+            </section> */}
           </div>
         </motion.div>    
     )
