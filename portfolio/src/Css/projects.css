@@ -9,13 +9,15 @@
     color: #fff;
     font-family: 'Anton', sans-serif;
     text-transform: uppercase;
-    margin: 10vh;
+    margin: 2vh;
     padding: 5vh;
+    margin-top: 0px;
   }
   .hero h1{
     font-size: 8rem;
     font-weight: 700;
     margin-bottom: 0;
+    margin-top: 0;
   }
   .hero h2{
     font-size: 3rem;

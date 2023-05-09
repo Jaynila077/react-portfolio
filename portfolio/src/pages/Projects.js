@@ -13,7 +13,7 @@ export const Projects = () => {
         animate={{ opacity: 1 }}
         exit={{ opacity: 0 }}
         >
-            <Navbar />
+          
           <div className="hero">
             <h1 id="jay">Welcome,</h1>
             <h2>to showcase of <br /> my personal <span id="jay">projects</span> </h2>

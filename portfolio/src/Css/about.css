@@ -3,13 +3,13 @@
     width: 100%;
     font-family: 'Anton', sans-serif;
     margin: 25vh; 
-    margin-top: 16vh;
+    margin-top: 0vh;
 }
 
 .about h1{
     font-size: 8rem;
     color: #fff;
-    margin-top: 5rem;
+    margin-top: 0;
 }
 
 .about p{
@@ -20,6 +20,6 @@
 
 .about .aboutme{
     color: #ffffffe5;
-    margin-top: 3rem;
-    font-size: 1.5rem;
+    margin-top: 2rem;
+    font-size: 1.4rem;
 }

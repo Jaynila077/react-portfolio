@@ -10,7 +10,7 @@ export const About = () => {
         animate={{ opacity: 1 }}
         exit={{ opacity: 0 }}
         >
-          <Navbar />
+         
           <div className="hero">
             <h1 id="jay">HELLO!</h1>
             <p>I'm <span id="jay">Jay</span>, a web developer <br />

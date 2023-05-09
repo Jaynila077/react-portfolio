@@ -9,7 +9,7 @@ export const Contact = () => {
         animate={{ opacity: 1 }}
         exit={{ opacity: 0 }}
         >
-        <Navbar />
+        
         <h1>Contact</h1>
     </motion.div>
     )
