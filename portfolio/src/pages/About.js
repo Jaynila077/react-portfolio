@@ -1,4 +1,4 @@
-import { Navbar } from "./Navbar"
+// import { Navbar } from "./Navbar"
 import { motion } from "framer-motion"
 import '../Css/about.css'
 
@@ -18,9 +18,9 @@ export const About = () => {
             </p>
             <p className="aboutme">
             I'm passionate about building beautiful, <br />
-             functional websites and using data to <br />
-              solve real-world problems . I am <br /> currently learning machine learning
-              <br /> and data science
+             functional websites and using data to 
+              solve <br /> real-world problems . I am currently learning <br />  machine learning
+               and data science
             </p>
 
           </div>  

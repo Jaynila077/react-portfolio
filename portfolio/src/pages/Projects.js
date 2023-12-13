@@ -31,12 +31,6 @@ export const Projects = () => {
                 </div>
                 <Card />
             </section>
-            {/* <section className='project2'>
-                <div className="content">
-                <button></button>
-                </div>
-                <Card2 />
-            </section> */}
           </div>
         </motion.div>    
     )

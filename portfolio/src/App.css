@@ -39,6 +39,10 @@ body{
   color: #f81e42;
   }
   
+  .navbar{
+    position: relative;
+    top: -2vh;
+  }
   .navbar nav ul{
     list-style: none;
     display: flex;
